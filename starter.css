@@ -1,0 +1,177 @@
+/*!
+ * Bootstrap v5.0.0-beta2 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+* {
+  box-sizing: inherit;
+}
+
+*:before {
+  box-sizing: inherit;
+}
+
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: chatthaiui;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  -moz-osx-font-smoothing: grayscale !important;
+  -webkit-font-smoothing: antialiased !important;
+  text-rendering: optimizeLegibility !important;
+}
+
+table {
+  table-layout: fixed;
+}
+
+#dashboard_table th.th.id,
+.dashboard_table th.th.id {
+  width: 20px !important;
+}
+
+#dashboard_table th.th.s,
+.dashboard_table th.th.s {
+  width: 40px !important;
+}
+
+#dashboard_table th.th.m,
+.dashboard_table th.th.m {
+  width: 60px !important;
+}
+
+#dashboard_table th.th.l,
+.dashboard_table th.th.l {
+  width: 80px !important;
+}
+
+#dashboard_table th.th.xl,
+.dashboard_table th.th.xl {
+  width: 120px !important;
+}
+
+#dashboard_table th.th.xxl,
+.dashboard_table th.th.xxl {
+  width: 160px !important;
+}
+
+a {
+  transition: all 200ms ease;
+}
+
+.blur {
+  -webkit-filter: blur(35px);
+  -moz-filter: blur(35px);
+  -o-filter: blur(35px);
+  -ms-filter: blur(35px);
+  filter: blur(35px);
+}
+
+#bg {
+  transition: all 1s ease-out;
+  position: fixed;
+  background: no-repeat center center;
+  background-size: cover;
+  z-index: -1;
+  opacity: 0;
+  width: 110%;
+  height: 110%;
+  top: -5%;
+  left: -5%;
+}
+
+.feedback {
+  position: fixed;
+  top: 50%;
+  left: -50px;
+  width: 200px;
+  height: 0px;
+  text-align: right;
+  z-index: 9999;
+  margin-top: -15px;
+}
+
+.feedback a {
+  transform: rotate(-90deg);
+  display: block;
+  background: #0aa2c0;
+  text-align: center;
+  height: 40px;
+  width: 140px;
+  padding: 8px 16px;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  border-bottom: solid 1px #fff;
+  border-left: solid 1px #fff;
+  border-right: solid 1px #fff;
+  box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.4);
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.feedback a:hover {
+  opacity: 1;
+  color: white;
+}
+
+.feedback a:focus {
+  opacity: 1;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dt {
+  -moz-text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  -webkit-text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  -webkit-font-smoothing: antialiased;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-family: Maledpan, "Cascadia Code", Consolas, "Courier New", monospace;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: rgba(248, 249, 250, 0.8);
+  font-size: 80%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  z-index: -1;
+}
+
+footer a {
+  color: #f8f9fa;
+  opacity: 0.8;
+  border-bottom: dotted 1px rgba(248, 249, 250, 0.8);
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #f9fafb;
+  opacity: 1;
+  border-bottom: solid 1px #f8f9fa;
+}
+
+footer a:focus {
+  color: #f9fafb;
+  opacity: 1;
+  border-bottom: solid 1px #f8f9fa;
+}
