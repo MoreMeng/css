@@ -52,32 +52,34 @@ table {
 	table-layout: fixed;
 }
 
+// Fix: datatable padding
 #dashboard_table,
 .dashboard_table {
   th {
     &.th {
+      padding-right: 0;
       &.id {
-        width: 20px !important;
+        width: 10px !important;
       }
 
       &.s {
-        width: 40px !important;
+        width: 30px !important;
       }
 
       &.m {
-        width: 60px !important;
+        width: 50px !important;
       }
 
       &.l {
-        width: 80px !important;
+        width: 70px !important;
       }
 
       &.xl {
-        width: 120px !important;
+        width: 110px !important;
       }
 
       &.xxl {
-        width: 160px !important;
+        width: 150px !important;
       }
     }
   }
