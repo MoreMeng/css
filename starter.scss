@@ -190,7 +190,7 @@ footer {
 }
 
 // TITLE
-.tt {
+.tt:not(a,button) {
 	cursor: help;
 }
 
